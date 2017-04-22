@@ -5,6 +5,8 @@ package com.hishop.service.impl;
 import java.util.Date;
 import java.util.List;
 
+import org.apache.commons.lang3.ObjectUtils.Null;
+import org.springframework.aop.ThrowsAdvice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,15 +15,23 @@ import com.github.pagehelper.PageInfo;
 import com.hishop.common.pojo.EUDataGridResult;
 import com.hishop.common.util.HishopResult;
 import com.hishop.common.util.IDUtils;
+import com.hishop.mapper.TbItemDescMapper;
 import com.hishop.mapper.TbItemMapper;
+import com.hishop.mapper.TbItemParamMapper;
 import com.hishop.pojo.TbItem;
+import com.hishop.pojo.TbItemDesc;
 import com.hishop.pojo.TbItemExample;
 import com.hishop.pojo.TbItemExample.Criteria;
+
 import com.hishop.service.ItemService;
 @Service
 public class ItemServiceImpl implements ItemService {
 	@Autowired
 	private TbItemMapper tbitemMapper;
+	
+	@Autowired
+	private TbItemDescMapper tbitemDescmapper;
+
 	@Override
 	public TbItem getItemById(long id) {
 		// TODO Auto-generated method stub
@@ -51,7 +61,7 @@ public class ItemServiceImpl implements ItemService {
 		return euDataGridResult;
 	}
 	@Override
-	public HishopResult creatItem(TbItem item) {
+	public HishopResult creatItem(TbItem item,String desc) throws  Exception{
 		// TODO Auto-generated method stub
 		Long itemId = IDUtils.genItemId();
 		item.setId(itemId);
@@ -59,7 +69,22 @@ public class ItemServiceImpl implements ItemService {
 		item.setUpdated(new Date());
 		item.setCreated(new Date());
 		tbitemMapper.insert(item);
+		HishopResult hishopResult = insertItemDesc(itemId, desc);
+		if(hishopResult.getStatus()!=200){
+			throw new Exception();
+		}
 		return HishopResult.ok();
 	}
+	
+	private HishopResult insertItemDesc(Long itemId,String desc){
+		TbItemDesc itemDesc = new TbItemDesc();
+		itemDesc.setItemId(itemId);
+		itemDesc.setItemDesc(desc);
+		itemDesc.setCreated(new Date());
+		itemDesc.setUpdated(new Date());
+		tbitemDescmapper.insert(itemDesc);
+		return HishopResult.ok();
+	}
+	
 
 }

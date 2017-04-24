@@ -34,8 +34,8 @@ public class ItemController {
 	
 	@RequestMapping(value="/item/save",method= RequestMethod.POST)
 	@ResponseBody
-	private HishopResult creatItem(TbItem item,String desc)throws Exception{
-		HishopResult hishopResult = itemService.creatItem(item,desc) ;
+	private HishopResult creatItem(TbItem item,String desc,String itemParams)throws Exception{
+		HishopResult hishopResult = itemService.creatItem(item,desc,itemParams) ;
 		return hishopResult;
 	}
 }

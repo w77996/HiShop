@@ -8,6 +8,6 @@ public interface ItemService {
 	
 	TbItem getItemById(long id);
 	EUDataGridResult getItemList(int page,int rows);
-	HishopResult creatItem(TbItem item,String desc) throws Exception;
+	HishopResult creatItem(TbItem item,String desc,String itemParam) throws Exception;
 
 }

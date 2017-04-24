@@ -1,5 +1,6 @@
 package com.hishop.service.impl;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,11 +23,19 @@ public class ItemParamServiceImpl implements ItemParamService {
 		
 		com.hishop.pojo.TbItemParamExample.Criteria criteria = tbItemParamExample.createCriteria();
 		criteria.andItemCatIdEqualTo(cid);
-		List<TbItemParam> list = tbitemParamMapper.selectByExample(tbItemParamExample);
+		List<TbItemParam> list = tbitemParamMapper.selectByExampleWithBLOBs(tbItemParamExample);
 		if(list != null && list.size() > 0){
 			return HishopResult.ok(list.get(0));
 		}
 		
+		return HishopResult.ok();
+	}
+	@Override
+	public HishopResult insertItemParam(TbItemParam tbItemParam) {
+		// TODO Auto-generated method stub
+		tbItemParam.setCreated(new Date());
+		tbItemParam.setUpdated(new Date());
+		tbitemParamMapper.insert(tbItemParam);
 		return HishopResult.ok();
 	}
 

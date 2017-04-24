@@ -17,12 +17,13 @@ import com.hishop.common.util.HishopResult;
 import com.hishop.common.util.IDUtils;
 import com.hishop.mapper.TbItemDescMapper;
 import com.hishop.mapper.TbItemMapper;
+import com.hishop.mapper.TbItemParamItemMapper;
 import com.hishop.mapper.TbItemParamMapper;
 import com.hishop.pojo.TbItem;
 import com.hishop.pojo.TbItemDesc;
 import com.hishop.pojo.TbItemExample;
 import com.hishop.pojo.TbItemExample.Criteria;
-
+import com.hishop.pojo.TbItemParamItem;
 import com.hishop.service.ItemService;
 @Service
 public class ItemServiceImpl implements ItemService {
@@ -31,6 +32,9 @@ public class ItemServiceImpl implements ItemService {
 	
 	@Autowired
 	private TbItemDescMapper tbitemDescmapper;
+	
+	@Autowired
+	private TbItemParamItemMapper tbItemParamItemMapper;
 
 	@Override
 	public TbItem getItemById(long id) {
@@ -61,7 +65,7 @@ public class ItemServiceImpl implements ItemService {
 		return euDataGridResult;
 	}
 	@Override
-	public HishopResult creatItem(TbItem item,String desc) throws  Exception{
+	public HishopResult creatItem(TbItem item,String desc,String itemParam) throws  Exception{
 		// TODO Auto-generated method stub
 		Long itemId = IDUtils.genItemId();
 		item.setId(itemId);
@@ -70,6 +74,10 @@ public class ItemServiceImpl implements ItemService {
 		item.setCreated(new Date());
 		tbitemMapper.insert(item);
 		HishopResult hishopResult = insertItemDesc(itemId, desc);
+		if(hishopResult.getStatus()!=200){
+			throw new Exception();
+		}
+		hishopResult	=insertItemParamItem(itemId, itemParam);
 		if(hishopResult.getStatus()!=200){
 			throw new Exception();
 		}
@@ -86,5 +94,15 @@ public class ItemServiceImpl implements ItemService {
 		return HishopResult.ok();
 	}
 	
+	private HishopResult insertItemParamItem(Long itemid,String itemParam){
+		TbItemParamItem tbItemParamItem = new TbItemParamItem();
+		tbItemParamItem.setItemId(itemid);
+		tbItemParamItem.setParamData(itemParam);
+		tbItemParamItem.setCreated(new Date());
+		tbItemParamItem.setUpdated(new Date());
+		tbItemParamItemMapper.insert(tbItemParamItem);
+		return HishopResult.ok();
+		
+	}
 
 }

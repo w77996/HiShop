@@ -1,0 +1,6 @@
+com\hishop\controller\ItemController.class
+com\hishop\controller\PictureController.class
+com\hishop\controller\ItemParamController.class
+com\hishop\controller\ItemCatController.class
+com\hishop\controller\ItemParaItemContraller.class
+com\hishop\controller\PagerController.class

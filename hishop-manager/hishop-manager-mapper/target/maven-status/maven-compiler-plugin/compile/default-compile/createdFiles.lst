@@ -1,0 +1,11 @@
+com\hishop\mapper\TbItemCatMapper.class
+com\hishop\mapper\TbOrderMapper.class
+com\hishop\mapper\TbUserMapper.class
+com\hishop\mapper\TbItemParamMapper.class
+com\hishop\mapper\TbItemParamItemMapper.class
+com\hishop\mapper\TbItemMapper.class
+com\hishop\mapper\TbContentCategoryMapper.class
+com\hishop\mapper\TbContentMapper.class
+com\hishop\mapper\TbItemDescMapper.class
+com\hishop\mapper\TbOrderItemMapper.class
+com\hishop\mapper\TbOrderShippingMapper.class

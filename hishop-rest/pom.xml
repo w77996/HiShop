@@ -10,7 +10,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <dependencies>
-		<!-- 依赖taotao-manager-mapper工程 -->
+		<!-- 依赖hishop-manager-mapper工程 -->
 		<dependency>
 			<groupId>com.hishop</groupId>
 			<artifactId>hishop-manager-mapper</artifactId>
@@ -50,6 +50,11 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jsp-api</artifactId>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>

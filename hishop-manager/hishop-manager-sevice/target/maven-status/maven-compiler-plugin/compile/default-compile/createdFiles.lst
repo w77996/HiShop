@@ -1,0 +1,10 @@
+com\hishop\service\ItemCatService.class
+com\hishop\service\ItemParamService.class
+com\hishop\service\impl\ItemParamItemServiceImpl.class
+com\hishop\service\impl\PictureServiceImpl.class
+com\hishop\service\impl\ItemCatServiceImpl.class
+com\hishop\service\ItemService.class
+com\hishop\service\ItemParamItemService.class
+com\hishop\service\impl\ItemParamServiceImpl.class
+com\hishop\service\PictureService.class
+com\hishop\service\impl\ItemServiceImpl.class

@@ -13,6 +13,7 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 	<!-- 加载spring容器 -->
+	<!-- 加载spring容器 -->
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>classpath:spring/applicationContext-*.xml</param-value>
@@ -28,10 +29,6 @@
 			<param-name>encoding</param-name>
 			<param-value>utf-8</param-value>
 		</init-param>
-		<!-- <init-param>
-			<param-name>forceEncoding</param-name>
-			<param-value>true</param-value>
-		</init-param> -->
 	</filter>
 	<filter-mapping>
 		<filter-name>CharacterEncodingFilter</filter-name>
@@ -50,6 +47,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>hishop-protal</servlet-name>
+		<!-- 伪静态化 -->
 		<url-pattern>*.html</url-pattern>
 	</servlet-mapping>
 </web-app>

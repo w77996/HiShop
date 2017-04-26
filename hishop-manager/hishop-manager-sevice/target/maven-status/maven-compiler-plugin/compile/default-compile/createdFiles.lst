@@ -2,6 +2,8 @@ com\hishop\service\ItemCatService.class
 com\hishop\service\ItemParamService.class
 com\hishop\service\impl\ItemParamItemServiceImpl.class
 com\hishop\service\impl\PictureServiceImpl.class
+com\hishop\service\ContentCategoryService.class
+com\hishop\service\impl\ContentCategoryServiceImpl.class
 com\hishop\service\impl\ItemCatServiceImpl.class
 com\hishop\service\ItemService.class
 com\hishop\service\ItemParamItemService.class

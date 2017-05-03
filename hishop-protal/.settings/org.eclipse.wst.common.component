@@ -7,6 +7,9 @@
         <dependent-module archiveName="hishop-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hishop-common/hishop-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="hishop-manager-pojo-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hishop-manager-pojo/hishop-manager-pojo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="hishop-protal"/>
         <property name="java-output-path" value="/hishop-protal/target/classes"/>
     </wb-module>

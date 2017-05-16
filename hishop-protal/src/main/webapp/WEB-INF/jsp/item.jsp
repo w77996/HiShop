@@ -221,7 +221,7 @@
 					<b></b>如果您发现商品信息不准确，欢迎纠错
 				</div>
 				<div id="item-desc" class="detail-content">
-						${itemDesc.itemDesc }
+						
 				</div>
 			</div>
 			<div class="mc hide" data-widget="tab-content" id="product-detail-2">

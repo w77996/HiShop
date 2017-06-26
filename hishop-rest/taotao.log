@@ -1,169 +1,358 @@
-2017-05-16 16:17:01,057 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor'
-2017-05-16 16:17:01,057 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor'
-2017-05-16 16:17:01,057 [localhost-startStop-1] [org.springframework.web.context.support.XmlWebApplicationContext]-[DEBUG] Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@54af441e]
-2017-05-16 16:17:01,057 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'lifecycleProcessor'
-2017-05-16 16:17:01,057 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Unable to locate MultipartResolver with name 'multipartResolver': no multipart request handling provided
-2017-05-16 16:17:01,058 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
-2017-05-16 16:17:01,059 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
-2017-05-16 16:17:01,059 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@2d22b491]
-2017-05-16 16:17:01,060 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
-2017-05-16 16:17:01,062 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
-2017-05-16 16:17:01,062 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@3e73cf2c]
-2017-05-16 16:17:01,062 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0'
-2017-05-16 16:17:01,062 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping'
-2017-05-16 16:17:01,063 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0'
-2017-05-16 16:17:01,063 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter'
-2017-05-16 16:17:01,063 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter'
-2017-05-16 16:17:01,063 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0'
-2017-05-16 16:17:01,063 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0'
-2017-05-16 16:17:01,063 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0'
-2017-05-16 16:17:01,063 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
-2017-05-16 16:17:01,065 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
-2017-05-16 16:17:01,065 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@75a725a6]
-2017-05-16 16:17:01,065 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'org.springframework.web.servlet.view.InternalResourceViewResolver#0'
-2017-05-16 16:17:01,065 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
-2017-05-16 16:17:01,068 [localhost-startStop-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
-2017-05-16 16:17:01,068 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@69e0fe09]
-2017-05-16 16:17:01,068 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [servletConfigInitParams]
-2017-05-16 16:17:01,068 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [servletContextInitParams]
-2017-05-16 16:17:01,068 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [jndiProperties]
-2017-05-16 16:17:01,068 [localhost-startStop-1] [org.springframework.jndi.JndiTemplate]-[DEBUG] Looking up JNDI object with name [java:comp/env/spring.liveBeansView.mbeanDomain]
-2017-05-16 16:17:01,069 [localhost-startStop-1] [org.springframework.jndi.JndiLocatorDelegate]-[DEBUG] Converted JNDI name [java:comp/env/spring.liveBeansView.mbeanDomain] not found - trying original name [spring.liveBeansView.mbeanDomain]. javax.naming.NameNotFoundException: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].
-2017-05-16 16:17:01,069 [localhost-startStop-1] [org.springframework.jndi.JndiTemplate]-[DEBUG] Looking up JNDI object with name [spring.liveBeansView.mbeanDomain]
-2017-05-16 16:17:01,069 [localhost-startStop-1] [org.springframework.jndi.JndiPropertySource]-[DEBUG] JNDI lookup for name [spring.liveBeansView.mbeanDomain] threw NamingException with message: Name [spring.liveBeansView.mbeanDomain] is not bound in this Context. Unable to find [spring.liveBeansView.mbeanDomain].. Returning null.
-2017-05-16 16:17:01,069 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
-2017-05-16 16:17:01,069 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
-2017-05-16 16:17:01,069 [localhost-startStop-1] [org.springframework.core.env.PropertySourcesPropertyResolver]-[DEBUG] Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
-2017-05-16 16:17:01,069 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Published WebApplicationContext of servlet 'hishop-manager' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.hishop-manager]
-2017-05-16 16:17:01,069 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[INFO] FrameworkServlet 'hishop-manager': initialization completed in 435 ms
-2017-05-16 16:17:01,069 [localhost-startStop-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Servlet 'hishop-manager' configured successfully
-2017-05-16 16:17:03,934 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'hishop-manager' processing GET request for [/rest/item/param/536563]
-2017-05-16 16:17:03,936 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/param/536563
-2017-05-16 16:17:03,938 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.hishop.common.util.HishopResult com.hishop.rest.controller.ItemController.getItemDescParam(long)]
-2017-05-16 16:17:03,938 [http-bio-8081-exec-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
-2017-05-16 16:17:03,938 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/item/param/536563] is: -1
-2017-05-16 16:17:03,973 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2017-05-16 16:17:03,980 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42f99478]
-2017-05-16 16:17:04,014 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2017-05-16 16:17:04,036 [http-bio-8081-exec-1] [com.alibaba.druid.pool.DruidDataSource]-[INFO] {dataSource-1} inited
-2017-05-16 16:17:04,190 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
-2017-05-16 16:17:04,191 [http-bio-8081-exec-1] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce7f18e] will be managed by Spring
-2017-05-16 16:17:04,193 [http-bio-8081-exec-1] [com.hishop.mapper.TbItemParamItemMapper.selectByExampleWithBLOBs]-[DEBUG] ==>  Preparing: select id, item_id, created, updated , param_data from tb_item_param_item WHERE ( item_id = ? ) 
-2017-05-16 16:17:04,207 [http-bio-8081-exec-1] [com.hishop.mapper.TbItemParamItemMapper.selectByExampleWithBLOBs]-[DEBUG] ==> Parameters: 536563(Long)
-2017-05-16 16:17:04,215 [http-bio-8081-exec-1] [com.hishop.mapper.TbItemParamItemMapper.selectByExampleWithBLOBs]-[DEBUG] <==      Total: 0
-2017-05-16 16:17:04,215 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42f99478]
-2017-05-16 16:17:04,215 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42f99478]
-2017-05-16 16:17:04,215 [http-bio-8081-exec-1] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@42f99478]
-2017-05-16 16:17:04,215 [http-bio-8081-exec-1] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2017-05-16 16:17:04,235 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.hishop.common.util.HishopResult@7e56baca
-2017-05-16 16:17:04,235 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.hishop.common.util.HishopResult@7e56baca
-2017-05-16 16:17:04,249 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.hishop.common.util.HishopResult@7e56baca] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@14e849c0]
-2017-05-16 16:17:04,249 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'hishop-manager': assuming HandlerAdapter completed request handling
-2017-05-16 16:17:04,250 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2017-05-16 16:17:04,250 [http-bio-8081-exec-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'sqlSessionFactory'
-2017-05-16 16:19:59,117 [http-bio-8081-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'hishop-manager' processing GET request for [/rest/item/param/149301308761697]
-2017-05-16 16:19:59,118 [http-bio-8081-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/param/149301308761697
-2017-05-16 16:19:59,119 [http-bio-8081-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.hishop.common.util.HishopResult com.hishop.rest.controller.ItemController.getItemDescParam(long)]
-2017-05-16 16:19:59,119 [http-bio-8081-exec-4] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
-2017-05-16 16:19:59,119 [http-bio-8081-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/item/param/149301308761697] is: -1
-2017-05-16 16:19:59,127 [http-bio-8081-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2017-05-16 16:19:59,128 [http-bio-8081-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78371a60]
-2017-05-16 16:19:59,131 [http-bio-8081-exec-4] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2017-05-16 16:19:59,142 [http-bio-8081-exec-4] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
-2017-05-16 16:19:59,142 [http-bio-8081-exec-4] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce7f18e] will be managed by Spring
-2017-05-16 16:19:59,143 [http-bio-8081-exec-4] [com.hishop.mapper.TbItemParamItemMapper.selectByExampleWithBLOBs]-[DEBUG] ==>  Preparing: select id, item_id, created, updated , param_data from tb_item_param_item WHERE ( item_id = ? ) 
-2017-05-16 16:19:59,143 [http-bio-8081-exec-4] [com.hishop.mapper.TbItemParamItemMapper.selectByExampleWithBLOBs]-[DEBUG] ==> Parameters: 149301308761697(Long)
-2017-05-16 16:19:59,156 [http-bio-8081-exec-4] [com.hishop.mapper.TbItemParamItemMapper.selectByExampleWithBLOBs]-[DEBUG] <==      Total: 1
-2017-05-16 16:19:59,156 [http-bio-8081-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78371a60]
-2017-05-16 16:19:59,165 [http-bio-8081-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78371a60]
-2017-05-16 16:19:59,166 [http-bio-8081-exec-4] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78371a60]
-2017-05-16 16:19:59,166 [http-bio-8081-exec-4] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2017-05-16 16:19:59,166 [http-bio-8081-exec-4] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.hishop.common.util.HishopResult@591a3c2f
-2017-05-16 16:19:59,167 [http-bio-8081-exec-4] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.hishop.common.util.HishopResult@591a3c2f
-2017-05-16 16:19:59,169 [http-bio-8081-exec-4] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.hishop.common.util.HishopResult@591a3c2f] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@14e849c0]
-2017-05-16 16:19:59,169 [http-bio-8081-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'hishop-manager': assuming HandlerAdapter completed request handling
-2017-05-16 16:19:59,169 [http-bio-8081-exec-4] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2017-05-16 16:20:42,226 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'hishop-manager' processing GET request for [/rest/item/info/149301308761697]
-2017-05-16 16:20:42,226 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/info/149301308761697
-2017-05-16 16:20:42,227 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.hishop.common.util.HishopResult com.hishop.rest.controller.ItemController.getItemBaseInfo(long)]
-2017-05-16 16:20:42,227 [http-bio-8081-exec-7] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
-2017-05-16 16:20:42,227 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/item/info/149301308761697] is: -1
-2017-05-16 16:20:42,230 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2017-05-16 16:20:42,230 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78649756]
-2017-05-16 16:20:42,230 [http-bio-8081-exec-7] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2017-05-16 16:20:42,230 [http-bio-8081-exec-7] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
-2017-05-16 16:20:42,231 [http-bio-8081-exec-7] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce7f18e] will be managed by Spring
-2017-05-16 16:20:42,231 [http-bio-8081-exec-7] [com.hishop.mapper.TbItemMapper.selectByPrimaryKey]-[DEBUG] ==>  Preparing: select id, title, sell_point, price, num, barcode, image, cid, status, created, updated from tb_item where id = ? 
-2017-05-16 16:20:42,231 [http-bio-8081-exec-7] [com.hishop.mapper.TbItemMapper.selectByPrimaryKey]-[DEBUG] ==> Parameters: 149301308761697(Long)
-2017-05-16 16:20:42,233 [http-bio-8081-exec-7] [com.hishop.mapper.TbItemMapper.selectByPrimaryKey]-[DEBUG] <==      Total: 1
-2017-05-16 16:20:42,234 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78649756]
-2017-05-16 16:20:42,238 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78649756]
-2017-05-16 16:20:42,238 [http-bio-8081-exec-7] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78649756]
-2017-05-16 16:20:42,238 [http-bio-8081-exec-7] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2017-05-16 16:20:42,238 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.hishop.common.util.HishopResult@991fc0
-2017-05-16 16:20:42,238 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.hishop.common.util.HishopResult@991fc0
-2017-05-16 16:20:42,241 [http-bio-8081-exec-7] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.hishop.common.util.HishopResult@991fc0] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@14e849c0]
-2017-05-16 16:20:42,241 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'hishop-manager': assuming HandlerAdapter completed request handling
-2017-05-16 16:20:42,241 [http-bio-8081-exec-7] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2017-05-16 16:20:43,556 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'hishop-manager' processing GET request for [/rest/item/desc/149301308761697]
-2017-05-16 16:20:43,557 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/desc/149301308761697
-2017-05-16 16:20:43,557 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.hishop.common.util.HishopResult com.hishop.rest.controller.ItemController.getItemDescInfo(long)]
-2017-05-16 16:20:43,557 [http-bio-8081-exec-9] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
-2017-05-16 16:20:43,557 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/item/desc/149301308761697] is: -1
-2017-05-16 16:20:43,559 [http-bio-8081-exec-9] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Creating a new SqlSession
-2017-05-16 16:20:43,559 [http-bio-8081-exec-9] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58ebdd48]
-2017-05-16 16:20:43,559 [http-bio-8081-exec-9] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Fetching JDBC Connection from DataSource
-2017-05-16 16:20:43,559 [http-bio-8081-exec-9] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Registering transaction synchronization for JDBC Connection
-2017-05-16 16:20:43,560 [http-bio-8081-exec-9] [org.mybatis.spring.transaction.SpringManagedTransaction]-[DEBUG] JDBC Connection [com.mysql.jdbc.JDBC4Connection@ce7f18e] will be managed by Spring
-2017-05-16 16:20:43,560 [http-bio-8081-exec-9] [com.hishop.mapper.TbItemDescMapper.selectByPrimaryKey]-[DEBUG] ==>  Preparing: select item_id, created, updated , item_desc from tb_item_desc where item_id = ? 
-2017-05-16 16:20:43,560 [http-bio-8081-exec-9] [com.hishop.mapper.TbItemDescMapper.selectByPrimaryKey]-[DEBUG] ==> Parameters: 149301308761697(Long)
-2017-05-16 16:20:43,561 [http-bio-8081-exec-9] [com.hishop.mapper.TbItemDescMapper.selectByPrimaryKey]-[DEBUG] <==      Total: 1
-2017-05-16 16:20:43,562 [http-bio-8081-exec-9] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58ebdd48]
-2017-05-16 16:20:43,565 [http-bio-8081-exec-9] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58ebdd48]
-2017-05-16 16:20:43,565 [http-bio-8081-exec-9] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58ebdd48]
-2017-05-16 16:20:43,565 [http-bio-8081-exec-9] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
-2017-05-16 16:20:43,565 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.hishop.common.util.HishopResult@563b00c7
-2017-05-16 16:20:43,566 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.hishop.common.util.HishopResult@563b00c7
-2017-05-16 16:20:43,568 [http-bio-8081-exec-9] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.hishop.common.util.HishopResult@563b00c7] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@14e849c0]
-2017-05-16 16:20:43,568 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'hishop-manager': assuming HandlerAdapter completed request handling
-2017-05-16 16:20:43,568 [http-bio-8081-exec-9] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2017-05-16 16:20:44,474 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'hishop-manager' processing GET request for [/rest/item/param/149301308761697]
-2017-05-16 16:20:44,474 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/param/149301308761697
-2017-05-16 16:20:44,475 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.hishop.common.util.HishopResult com.hishop.rest.controller.ItemController.getItemDescParam(long)]
-2017-05-16 16:20:44,475 [http-bio-8081-exec-1] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
-2017-05-16 16:20:44,475 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/item/param/149301308761697] is: -1
-2017-05-16 16:20:44,530 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.hishop.common.util.HishopResult@333a6319
-2017-05-16 16:20:44,530 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.hishop.common.util.HishopResult@333a6319
-2017-05-16 16:20:44,530 [http-bio-8081-exec-1] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.hishop.common.util.HishopResult@333a6319] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@14e849c0]
-2017-05-16 16:20:44,531 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'hishop-manager': assuming HandlerAdapter completed request handling
-2017-05-16 16:20:44,531 [http-bio-8081-exec-1] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2017-05-16 16:25:30,780 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'hishop-manager' processing GET request for [/rest/item/info/149301308761697]
-2017-05-16 16:25:30,780 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/info/149301308761697
-2017-05-16 16:25:30,780 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.hishop.common.util.HishopResult com.hishop.rest.controller.ItemController.getItemBaseInfo(long)]
-2017-05-16 16:25:30,780 [http-bio-8081-exec-3] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
-2017-05-16 16:25:30,780 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/item/info/149301308761697] is: -1
-2017-05-16 16:25:30,786 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.hishop.common.util.HishopResult@1fc62fe9
-2017-05-16 16:25:30,786 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.hishop.common.util.HishopResult@1fc62fe9
-2017-05-16 16:25:30,786 [http-bio-8081-exec-3] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.hishop.common.util.HishopResult@1fc62fe9] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@14e849c0]
-2017-05-16 16:25:30,786 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'hishop-manager': assuming HandlerAdapter completed request handling
-2017-05-16 16:25:30,787 [http-bio-8081-exec-3] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2017-05-16 16:25:32,801 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'hishop-manager' processing GET request for [/rest/item/desc/149301308761697]
-2017-05-16 16:25:32,801 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/desc/149301308761697
-2017-05-16 16:25:32,801 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.hishop.common.util.HishopResult com.hishop.rest.controller.ItemController.getItemDescInfo(long)]
-2017-05-16 16:25:32,801 [http-bio-8081-exec-5] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
-2017-05-16 16:25:32,801 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/item/desc/149301308761697] is: -1
-2017-05-16 16:25:32,806 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.hishop.common.util.HishopResult@f50d1b0
-2017-05-16 16:25:32,806 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.hishop.common.util.HishopResult@f50d1b0
-2017-05-16 16:25:32,807 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.hishop.common.util.HishopResult@f50d1b0] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@14e849c0]
-2017-05-16 16:25:32,807 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'hishop-manager': assuming HandlerAdapter completed request handling
-2017-05-16 16:25:32,807 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
-2017-05-16 16:25:34,026 [http-bio-8081-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] DispatcherServlet with name 'hishop-manager' processing GET request for [/rest/item/param/149301308761697]
-2017-05-16 16:25:34,026 [http-bio-8081-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Looking up handler method for path /item/param/149301308761697
-2017-05-16 16:25:34,028 [http-bio-8081-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]-[DEBUG] Returning handler method [public com.hishop.common.util.HishopResult com.hishop.rest.controller.ItemController.getItemDescParam(long)]
-2017-05-16 16:25:34,028 [http-bio-8081-exec-8] [org.springframework.beans.factory.support.DefaultListableBeanFactory]-[DEBUG] Returning cached instance of singleton bean 'itemController'
-2017-05-16 16:25:34,028 [http-bio-8081-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Last-Modified value for [/rest/item/param/149301308761697] is: -1
-2017-05-16 16:25:34,031 [http-bio-8081-exec-8] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=com.hishop.common.util.HishopResult@58348f92
-2017-05-16 16:25:34,031 [http-bio-8081-exec-8] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=com.hishop.common.util.HishopResult@58348f92
-2017-05-16 16:25:34,032 [http-bio-8081-exec-8] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [com.hishop.common.util.HishopResult@58348f92] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@14e849c0]
-2017-05-16 16:25:34,032 [http-bio-8081-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'hishop-manager': assuming HandlerAdapter completed request handling
-2017-05-16 16:25:34,032 [http-bio-8081-exec-8] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request
+2017-06-26 10:05:07,504 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,504 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,504 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 281(Long)
+2017-06-26 10:05:07,505 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
+2017-06-26 10:05:07,505 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,505 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,505 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,505 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 290(Long)
+2017-06-26 10:05:07,506 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 1
+2017-06-26 10:05:07,506 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,506 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,506 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,506 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 291(Long)
+2017-06-26 10:05:07,507 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2017-06-26 10:05:07,507 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,507 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,507 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,507 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 296(Long)
+2017-06-26 10:05:07,508 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
+2017-06-26 10:05:07,508 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,508 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,508 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,508 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 297(Long)
+2017-06-26 10:05:07,509 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
+2017-06-26 10:05:07,509 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,509 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,509 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,509 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 300(Long)
+2017-06-26 10:05:07,510 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
+2017-06-26 10:05:07,510 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,510 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,510 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,510 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 309(Long)
+2017-06-26 10:05:07,511 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2017-06-26 10:05:07,511 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,511 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,511 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,511 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 314(Long)
+2017-06-26 10:05:07,512 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2017-06-26 10:05:07,512 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,512 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,512 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,512 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 322(Long)
+2017-06-26 10:05:07,513 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
+2017-06-26 10:05:07,513 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,513 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,513 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,513 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 331(Long)
+2017-06-26 10:05:07,514 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
+2017-06-26 10:05:07,514 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,514 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,514 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,514 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 341(Long)
+2017-06-26 10:05:07,515 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2017-06-26 10:05:07,515 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,515 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,515 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,515 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 348(Long)
+2017-06-26 10:05:07,516 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
+2017-06-26 10:05:07,516 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,516 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,516 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,516 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 358(Long)
+2017-06-26 10:05:07,517 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 15
+2017-06-26 10:05:07,518 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,518 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,518 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,518 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 374(Long)
+2017-06-26 10:05:07,518 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2017-06-26 10:05:07,518 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,518 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,519 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,519 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 378(Long)
+2017-06-26 10:05:07,519 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2017-06-26 10:05:07,519 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,519 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,520 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,520 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 379(Long)
+2017-06-26 10:05:07,520 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2017-06-26 10:05:07,520 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,520 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,521 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,521 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 386(Long)
+2017-06-26 10:05:07,521 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
+2017-06-26 10:05:07,521 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,521 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,522 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,522 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 397(Long)
+2017-06-26 10:05:07,522 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2017-06-26 10:05:07,522 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,522 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,523 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,523 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 405(Long)
+2017-06-26 10:05:07,523 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2017-06-26 10:05:07,523 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,523 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,523 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,524 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 412(Long)
+2017-06-26 10:05:07,524 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2017-06-26 10:05:07,524 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,524 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,525 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,525 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 420(Long)
+2017-06-26 10:05:07,525 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2017-06-26 10:05:07,525 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,525 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,525 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,526 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 425(Long)
+2017-06-26 10:05:07,526 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
+2017-06-26 10:05:07,526 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,526 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,527 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,527 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 438(Long)
+2017-06-26 10:05:07,527 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
+2017-06-26 10:05:07,527 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,527 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,527 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,528 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 439(Long)
+2017-06-26 10:05:07,528 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 16
+2017-06-26 10:05:07,528 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,528 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,529 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,529 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 456(Long)
+2017-06-26 10:05:07,530 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
+2017-06-26 10:05:07,530 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,530 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,530 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,530 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 467(Long)
+2017-06-26 10:05:07,530 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2017-06-26 10:05:07,531 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,531 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,531 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,531 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 474(Long)
+2017-06-26 10:05:07,532 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
+2017-06-26 10:05:07,532 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,532 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,532 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,532 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 486(Long)
+2017-06-26 10:05:07,533 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
+2017-06-26 10:05:07,533 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,533 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,533 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,533 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 495(Long)
+2017-06-26 10:05:07,534 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
+2017-06-26 10:05:07,534 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,534 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,534 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,535 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 496(Long)
+2017-06-26 10:05:07,535 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2017-06-26 10:05:07,535 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,535 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,535 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,535 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 503(Long)
+2017-06-26 10:05:07,536 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
+2017-06-26 10:05:07,536 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,536 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,536 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,536 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 509(Long)
+2017-06-26 10:05:07,537 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
+2017-06-26 10:05:07,537 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,537 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,537 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,537 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 512(Long)
+2017-06-26 10:05:07,537 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2017-06-26 10:05:07,537 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,537 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,538 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,538 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 516(Long)
+2017-06-26 10:05:07,538 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2017-06-26 10:05:07,538 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,538 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,538 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,538 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 520(Long)
+2017-06-26 10:05:07,539 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2017-06-26 10:05:07,539 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,539 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,539 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,539 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 525(Long)
+2017-06-26 10:05:07,540 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2017-06-26 10:05:07,540 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,540 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,540 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,540 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 529(Long)
+2017-06-26 10:05:07,541 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2017-06-26 10:05:07,541 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,541 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,541 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,541 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 534(Long)
+2017-06-26 10:05:07,541 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2017-06-26 10:05:07,542 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,542 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,542 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,542 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 539(Long)
+2017-06-26 10:05:07,542 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2017-06-26 10:05:07,542 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,542 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,543 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,543 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 543(Long)
+2017-06-26 10:05:07,543 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
+2017-06-26 10:05:07,543 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,543 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,543 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,544 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 546(Long)
+2017-06-26 10:05:07,544 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
+2017-06-26 10:05:07,544 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,544 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,544 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,545 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 558(Long)
+2017-06-26 10:05:07,545 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 3
+2017-06-26 10:05:07,545 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,545 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,545 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,545 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 559(Long)
+2017-06-26 10:05:07,546 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 2
+2017-06-26 10:05:07,546 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,546 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,546 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,546 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 562(Long)
+2017-06-26 10:05:07,549 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2017-06-26 10:05:07,549 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,549 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,549 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,549 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 567(Long)
+2017-06-26 10:05:07,553 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
+2017-06-26 10:05:07,553 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,553 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,554 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,554 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 580(Long)
+2017-06-26 10:05:07,557 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
+2017-06-26 10:05:07,557 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,557 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,557 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,557 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 581(Long)
+2017-06-26 10:05:07,559 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
+2017-06-26 10:05:07,559 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,559 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,560 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,560 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 591(Long)
+2017-06-26 10:05:07,561 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 12
+2017-06-26 10:05:07,562 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,562 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,562 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,562 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 604(Long)
+2017-06-26 10:05:07,563 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
+2017-06-26 10:05:07,563 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,563 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,563 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,564 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 614(Long)
+2017-06-26 10:05:07,564 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
+2017-06-26 10:05:07,564 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,565 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,565 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,565 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 625(Long)
+2017-06-26 10:05:07,566 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2017-06-26 10:05:07,566 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,566 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,566 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,566 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 633(Long)
+2017-06-26 10:05:07,567 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2017-06-26 10:05:07,567 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,567 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,567 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,568 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 634(Long)
+2017-06-26 10:05:07,569 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 13
+2017-06-26 10:05:07,569 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,569 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,570 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,570 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 648(Long)
+2017-06-26 10:05:07,571 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 11
+2017-06-26 10:05:07,571 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,571 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,571 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,571 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 660(Long)
+2017-06-26 10:05:07,572 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2017-06-26 10:05:07,572 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,572 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,573 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,573 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 667(Long)
+2017-06-26 10:05:07,574 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 15
+2017-06-26 10:05:07,574 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,574 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,574 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,574 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 683(Long)
+2017-06-26 10:05:07,575 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2017-06-26 10:05:07,575 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,575 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,576 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,576 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 691(Long)
+2017-06-26 10:05:07,577 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 7
+2017-06-26 10:05:07,577 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,577 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,577 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,577 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 699(Long)
+2017-06-26 10:05:07,577 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2017-06-26 10:05:07,577 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,577 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,578 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,578 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 700(Long)
+2017-06-26 10:05:07,578 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 10
+2017-06-26 10:05:07,578 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,578 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,579 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,579 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 711(Long)
+2017-06-26 10:05:07,579 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 6
+2017-06-26 10:05:07,579 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,579 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,579 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,579 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 718(Long)
+2017-06-26 10:05:07,580 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
+2017-06-26 10:05:07,580 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,580 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,580 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,580 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 724(Long)
+2017-06-26 10:05:07,580 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 8
+2017-06-26 10:05:07,580 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,581 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,581 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,581 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 733(Long)
+2017-06-26 10:05:07,581 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 5
+2017-06-26 10:05:07,581 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,581 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,582 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,582 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 739(Long)
+2017-06-26 10:05:07,582 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 9
+2017-06-26 10:05:07,582 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,582 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,582 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,583 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 749(Long)
+2017-06-26 10:05:07,583 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 4
+2017-06-26 10:05:07,583 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,583 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,583 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,583 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 750(Long)
+2017-06-26 10:05:07,584 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 33
+2017-06-26 10:05:07,584 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,585 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,585 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,585 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 784(Long)
+2017-06-26 10:05:07,586 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 28
+2017-06-26 10:05:07,586 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,586 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,587 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,587 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 813(Long)
+2017-06-26 10:05:07,588 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 22
+2017-06-26 10:05:07,588 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,588 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c] from current transaction
+2017-06-26 10:05:07,588 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==>  Preparing: select id, parent_id, name, status, sort_order, is_parent, created, updated from tb_item_cat WHERE ( parent_id = ? ) 
+2017-06-26 10:05:07,588 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] ==> Parameters: 836(Long)
+2017-06-26 10:05:07,589 [http-bio-8081-exec-5] [com.hishop.mapper.TbItemCatMapper.selectByExample]-[DEBUG] <==      Total: 28
+2017-06-26 10:05:07,589 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,589 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,589 [http-bio-8081-exec-5] [org.mybatis.spring.SqlSessionUtils]-[DEBUG] Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@ef1cc6c]
+2017-06-26 10:05:07,589 [http-bio-8081-exec-5] [org.springframework.jdbc.datasource.DataSourceUtils]-[DEBUG] Returning JDBC Connection to DataSource
+2017-06-26 10:05:07,592 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] Invoking ResponseBodyAdvice chain for body=org.springframework.http.converter.json.MappingJacksonValue@3550eb45
+2017-06-26 10:05:07,592 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdviceChain]-[DEBUG] After ResponseBodyAdvice chain body=org.springframework.http.converter.json.MappingJacksonValue@3550eb45
+2017-06-26 10:05:07,601 [http-bio-8081-exec-5] [org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor]-[DEBUG] Written [org.springframework.http.converter.json.MappingJacksonValue@3550eb45] as "application/json;charset=UTF-8" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@c77b510]
+2017-06-26 10:05:07,601 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Null ModelAndView returned to DispatcherServlet with name 'hishop-manager': assuming HandlerAdapter completed request handling
+2017-06-26 10:05:07,601 [http-bio-8081-exec-5] [org.springframework.web.servlet.DispatcherServlet]-[DEBUG] Successfully completed request

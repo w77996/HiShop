@@ -8,7 +8,7 @@ import redis.clients.jedis.JedisCluster;
 
 public class Test {
 	private ApplicationContext applicationContext;
-	@Before
+	/*@Before
 	public void init() {
 		applicationContext = new ClassPathXmlApplicationContext(
 				"classpath:applicationContext.xml");
@@ -22,5 +22,5 @@ public class Test {
 				jedisCluster.set("name", "zhangsan");
 				String value = jedisCluster.get("name");
 				System.out.println(value);
-		}
+		}*/
 }

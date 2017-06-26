@@ -18,7 +18,7 @@ public class JedisTest {
 	
 	private static final Logger LOGGER = LoggerFactory.getLogger(JedisTest.class);
 	
-	@Test
+	/*@Test
 	public void testJedisSingle() {
 		//创建一个jedis的对象。
 		Jedis jedis = new Jedis("192.168.25.153", 6379);
@@ -30,9 +30,9 @@ public class JedisTest {
 		jedis.close();
 	}
 	
-	/**
+	*//**
 	 * 使用连接池
-	 */
+	 *//*
 	@Test
 	public void testJedisPool() {
 		//创建jedis连接池
@@ -46,11 +46,11 @@ public class JedisTest {
 		pool.close();
 	}
 	
-	/**
+	*//**
 	 * 集群版测试
 	 * <p>Title: testJedisCluster</p>
 	 * <p>Description: </p>
-	 */
+	 *//*
 	@Test
 	public void testJedisCluster() {
 		LOGGER.debug("调用redisCluster开始");
@@ -77,11 +77,11 @@ public class JedisTest {
 		}
 	}
 	
-	/**
+	*//**
 	 * 单机版测试
 	 * <p>Title: testSpringJedisSingle</p>
 	 * <p>Description: </p>
-	 */
+	 *//*
 	@Test
 	public void testSpringJedisSingle() {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:spring/applicationContext-*.xml");
@@ -100,5 +100,5 @@ public class JedisTest {
 		String string = jedisCluster.get("key1");
 		System.out.println(string);
 		jedisCluster.close();
-	}
+	}*/
 }
